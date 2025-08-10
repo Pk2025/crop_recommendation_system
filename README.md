@@ -1,4 +1,4 @@
- Crop Recommendation System
+Crop Recommendation System
 A Machine Learning project that recommends the most suitable crop to grow based on soil, climate, and environmental conditions.
 This system uses historical agricultural data and ML algorithms to help farmers and agricultural planners make informed decisions.
 
@@ -6,43 +6,34 @@ This system uses historical agricultural data and ML algorithms to help farmers 
 Crop Prediction: Suggests the best crop for given soil & climate data.
 
 User Input: Takes parameters such as:
+1]Nitrogen (N)
+2]Phosphorus (P)
+3]Potassium (K)
+4]Temperature
+5]Humidity
+6]pH level
+7]Rainfall
 
-Nitrogen (N)
-
-Phosphorus (P)
-
-Potassium (K)
-
-Temperature
-
-Humidity
-
-pH level
-
-Rainfall
-
-Machine Learning Model: Uses classification algorithms to predict the crop.
-
-Data Visualization: Graphs and charts to understand data distribution.
-
-Web/App Interface : Google URL
+# Machine Learning Model: Uses classification algorithms to predict the crop.
+# Data Visualization: Graphs and charts to understand data distribution.
+# Web/App Interface: Google URL
 
  Tech Stack
-Programming Language: Python 🐍
+Programming Language: Python 
+
+
+
+
+
 
 Libraries:
 
-pandas — Data handling
-
-numpy — Numerical computation
-
-matplotlib / seaborn — Data visualization
-
-scikit-learn — Machine Learning
-
-Model: Random Forest / Decision Tree / SVM 
-
-Dataset: Public agricultural dataset (On Kaggle )
+1]pandas — Data handling
+2]numpy — Numerical computation
+3]matplotlib / seaborn — Data visualization
+4]scikit-learn — Machine Learning
+5]Model: Random Forest / Decision Tree / SVM 
+6]Dataset: Public agricultural dataset (On Kaggle)
 
 Project Structure
 Crop-Recommendation-System/
@@ -54,6 +45,14 @@ Crop-Recommendation-System/
 │-- model.pkl           
 │-- requirements.txt    
 │-- README.md
+
+
+
+
+
+
+
+
 
 Installation & Usage
 1]Clone the repository
@@ -68,9 +67,5 @@ python app.py
 
 4] Open in browser
 http://127.0.0.1:5000
-
-
-
-
 
 
